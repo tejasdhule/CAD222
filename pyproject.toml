@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nifty-dashboard"
+version = "0.1.0"
+description = "Nifty 100 Stock Analysis Dashboard with Modern UI"
+authors = ["Dashboard User"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.46.0"
+yfinance = "^0.2.63"
+plotly = "^6.1.2"
+pandas = "^2.3.0"
+numpy = "^2.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
